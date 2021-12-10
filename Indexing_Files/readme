@@ -1,0 +1,18 @@
+
+##Description##
+
+Data extracted from the MetaMap tool is divided into different files based on websites of each post.
+
+1. Use Script_UpdateDataFrom_Metamap.py to append additional information about the post from data generated from Metamap tool.
+
+Location of data generated from Metamap tool is "Users/shivanipriya/Documents/GitHub/HealthCareMining/MetaMapAnnotator/resources/MetamapResult.csv".
+2.
+Script_Update_Info_In_csv.py file to append additional information about the post from the scraped data.
+The scraped data is stored at the location : "/Users/shivanipriya/Documents/GitHub/HealthCareMining/ScraperFiles/stage1_scrapping.json".
+
+3.
+Additionally, use Script_Convert_csv_json.py file to convert the csv file generated in the previous step to json format.
+This file will be used in Apache Solr for indexing the post based on the total weight assigned to each post.
+
+
+
